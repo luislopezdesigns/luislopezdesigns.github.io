@@ -34,56 +34,43 @@ h4{
     letter-spacing: .03em;
 }
 p, a{
-    font-size: 20px;
+    font-size: 18px;
     line-height: 1.3em;
-}
-nav{
-    padding: 30px 60px;
-    float: right;
 }
 nav a{
     text-decoration: none;
-    font-size: 20px;
-    color: blue;
-}
-nav a:visited{
     color: blue;
 }
 .content a{
-    color: whitesmoke;
+    color: blue;
+    text-decoration: none;
 }
 footer p{
     font-size: 14px;
 }
 
- /*  Header */
-
-header{
- /*    background-color: white; */
-    position: fixed;
-    top: 0;
-    z-index: 1;
-}
-
  /*  Navigation */
 
-.navigation{
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+}
+nav{
+    padding: 20px 60px;
     width: 100%;
 }
+.navigation img{
+    width: 40px;
+}
+
 .inline-block{
     display: inline-block;
 }
-/* 
-.logo{
-    width: 14%;
-}
-.logo img{
-    width: 180px;
-}
-nav{
-    width: 85%;
-}
-*/
+
 
 ul{
     float: right;
@@ -111,22 +98,15 @@ section{
  /* Hero Section */
 
 .heroImg{
-    background: 
-        linear-gradient(
-        rgba(220, 14, 87, 0.25), 
-        rgba(35, 149, 211, 0.25)
-        ),
-        url("https://picsum.photos/id/366/1080/580.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
     display: flex;
     align-items: center;
-    height: 560px;
-    color: whitesmoke;
-    background-color: black;
-    }
+    height: 600px;
+    color: black;
+}
 .content{
     width: 60%;
     opacity: 1;
@@ -138,7 +118,7 @@ section{
 
 /* My Work Section */
 
-.myWork{
+#work{
     display: flex;
     flex-wrap: wrap;
     align-content: flex-start;
@@ -146,7 +126,7 @@ section{
 
 .caseStudyCard{
     flex-grow: 1;
-    flex-basis: 448px;
+    flex-basis: 444px;
     text-align: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -277,9 +257,14 @@ figure.effect:hover a{
     flex-direction: row;
     justify-content: flex-end;
 }
-.skillsColumn{
+.skillsColumn, .contactColumn{
     flex-basis: 25%;
 }
+
+.aboutColumn, .experienceColumn{
+    flex-basis: 75%;
+}
+
 
  /* Footer Section */
 
@@ -296,6 +281,15 @@ footer img{
     text-align: right;
     font-size: 14px;
 }
+
+
+
+
+
+
+
+
+
 @media only screen and (max-width: 600px) {
     h1{
         font-size: 4em;
