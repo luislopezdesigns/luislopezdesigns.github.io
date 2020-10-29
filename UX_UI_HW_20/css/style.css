@@ -41,23 +41,50 @@ p, a{
 .navbar-brand img{
     width: 40px;
 }
+.cstmNavigation{
+    background-color: rgba(248, 249, 250, 0.9)!important;
+}
 section{
     border: 1px solid red;
 }
 .px{
-    padding-left: 45px;
-    padding-right: 45px;
+    padding-left: 60px;
+    padding-right: 60px;
 }
-.goal{
-    padding: 60px;
-}
-.goal h2{
+h2.sectionTitle{
     line-height: 1em;
 }
 .goal img{
     width: 100%;
 }
-
+.goal{
+    padding: 60px;
+}
+.processContainer{
+    padding: 30px 60px 90px 60px;
+}
+.processCol{
+    text-align: center;
+}
+.processCol img{
+    height: 80px;
+    padding: 10px;
+}
+.processHeader{
+    padding-bottom: 30px;
+}
+.empathize{
+    padding: 60px 60px 30px 60px;
+}
+.empathizeContent{
+    padding-bottom: 30px;
+}
+.empathizeContent:last-child{
+    padding-bottom: 0px;
+}
+.define{
+    padding: 30px 60px 60px 60px;
+}
 
 
  /* Footer Section */
