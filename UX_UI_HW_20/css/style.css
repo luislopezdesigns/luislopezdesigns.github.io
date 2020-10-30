@@ -60,13 +60,16 @@ h2.sectionTitle{
 .goal{
     padding: 60px;
 }
+.goalColumn, .defineColumn, .ideateColumn, .prototypeColumn{
+    margin: 0 auto;
+}
 .processContainer{
     padding: 30px 60px 90px 60px;
 }
-.processCol{
+.processColumn{
     text-align: center;
 }
-.processCol img{
+.processColumn img{
     height: 80px;
     padding: 10px;
 }
@@ -76,16 +79,27 @@ h2.sectionTitle{
 .empathize{
     padding: 60px 60px 30px 60px;
 }
-.empathizeContent{
-    padding-bottom: 30px;
+.empathizeColumn{
+    margin: 0 auto;
 }
-.empathizeContent:last-child{
-    padding-bottom: 0px;
+.empathizeColumn p:last-child{
+    margin-bottom: 0px;
 }
-.define{
-    padding: 30px 60px 60px 60px;
+.empathize img, .define img, .ideate img, .prototype img{
+    width: 100%;
 }
-
+.define, .ideate, .prototype{
+    padding: calc(30px - 1rem) 60px 30px 60px;
+}
+.defineColumn p:last-child{
+    margin-bottom: 0px;
+}
+.ideateColumn p:last-child{
+        margin-bottom: 0px;    
+}
+.prototypeColumn p:last-child{
+    margin-bottom: 0px;    
+}
 
  /* Footer Section */
 footer p{
