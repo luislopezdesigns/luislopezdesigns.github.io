@@ -148,6 +148,7 @@ section{
  /* Hero Section */
 
 .heroImg{
+    background-image: url("https://picsum.photos/id/1/1280/620.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -155,7 +156,7 @@ section{
     display: flex;
     align-items: center;
     height: 600px;
-    color: black;
+    color: white;
 }
 .content{
     width: 60%;
