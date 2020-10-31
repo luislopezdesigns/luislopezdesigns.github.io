@@ -55,10 +55,10 @@ h2.sectionTitle{
 .goal img{
     width: 100%;
 }
-.goal{
+.goal, .thoughts{
     padding: 60px;
 }
-.goalColumn, .defineColumn, .ideateColumn, .prototypeColumn{
+.goalColumn, .defineColumn, .ideateColumn, .prototypeColumn, .thoughtsColumn{
     margin: 0 auto;
 }
 .processContainer{
