@@ -34,22 +34,72 @@ h4{
     letter-spacing: .03em;
 }
 p, a{
-    font-size: 18px;
+    font-size: 20px;
     line-height: 1.3em;
 }
-nav a{
-    text-decoration: none;
-    color: blue;
+
+.navbar-brand img{
+    width: 40px;
 }
-.content a{
-    color: blue;
-    text-decoration: none;
-}
-footer p{
-    font-size: 14px;
+.cstmNavigation{
+    background-color: rgba(248, 249, 250, 0.9)!important;
 }
 
- /*  Navigation */
+.px{
+    padding-left: 60px;
+    padding-right: 60px;
+}
+h2.sectionTitle{
+    line-height: 1em;
+}
+.goal img{
+    width: 100%;
+}
+.goal{
+    padding: 60px;
+}
+.goalColumn, .defineColumn, .ideateColumn, .prototypeColumn{
+    margin: 0 auto;
+}
+.processContainer{
+    padding: 30px 60px 90px 60px;
+}
+.processColumn{
+    text-align: center;
+}
+.processColumn img{
+    height: 80px;
+    padding: 10px;
+}
+.processHeader{
+    padding-bottom: 30px;
+}
+.empathize{
+    padding: 60px 60px 30px 60px;
+}
+.empathizeColumn{
+    margin: 0 auto;
+}
+.empathizeColumn p:last-child{
+    margin-bottom: 0px;
+}
+.empathize img, .define img, .ideate img, .prototype img{
+    width: 100%;
+}
+.define, .ideate, .prototype{
+    padding: calc(30px - 1rem) 60px 30px 60px;
+}
+.defineColumn p:last-child{
+    margin-bottom: 0px;
+}
+.ideateColumn p:last-child{
+        margin-bottom: 0px;    
+}
+.prototypeColumn p:last-child{
+    margin-bottom: 0px;    
+}
+
+/*  Navigation */
 
 header{
     display: flex;
@@ -98,6 +148,7 @@ section{
  /* Hero Section */
 
 .heroImg{
+    background-image: url("https://picsum.photos/id/1/1280/620.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -105,7 +156,7 @@ section{
     display: flex;
     align-items: center;
     height: 600px;
-    color: black;
+    color: white;
 }
 .content{
     width: 60%;
@@ -267,6 +318,9 @@ figure.effect:hover a{
 
 
  /* Footer Section */
+footer p{
+    font-size: 14px;
+}
 
 footer{
     padding: 60px;
@@ -281,15 +335,6 @@ footer img{
     text-align: right;
     font-size: 14px;
 }
-
-
-
-
-
-
-
-
-
 @media only screen and (max-width: 600px) {
     h1{
         font-size: 4em;
