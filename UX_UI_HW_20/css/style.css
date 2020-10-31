@@ -315,6 +315,17 @@ figure.effect:hover a{
 .aboutColumn, .experienceColumn{
     flex-basis: 75%;
 }
+.final{
+    text-align: center;
+    background-color: lightgray;
+}
+.final img{
+    padding: 30px;
+    width: 30%;
+}
+.processLink{
+    font-size: 16px;
+}
 
 
  /* Footer Section */
